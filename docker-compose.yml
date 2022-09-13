@@ -7,11 +7,11 @@ services:
     environment:
       DEBUG: "true"
       NETWORK: 38.101.26.64/26
-      PROXMOX_URL: https://playboy.myinfra.lol:8006
+      PROXMOX_URL: https://colo-fl.myinfra.lol:8006
       PROXMOX_NODES_LIST: playboy-tpprod
       PROXMOX_TOKEN_NAME: root@pam!main
       PROXMOX_TOKEN: fd3cd278-7d48-4503-b6ca-d12e8d0f5378
       CLOUDFLARE_TOKEN: c6xuFf2D2tZ4Ykuluc_luLnmwZnZ1BZKlsluNHcO
       CLOUDFLARE_ZONE: myinfra.lol
-      #CLOUDFLARE_DNS_SUBDOMAIN:
+      CLOUDFLARE_DNS_SUBDOMAIN: colo-fl
       INTERVAL: 1h 
