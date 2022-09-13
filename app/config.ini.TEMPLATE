@@ -1,0 +1,15 @@
+[main]
+network: ${NETWORK}
+debug: ${DEBUG}
+
+[proxmox]
+proxmox_url: ${PROXMOX_URL}
+proxmox_nodes: ${PROXMOX_NODES_LIST}
+proxmox_token_name: ${PROXMOX_TOKEN_NAME} 
+proxmox_token: ${PROXMOX_TOKEN}
+
+[cloudflare]
+cloudflare_token: ${CLOUDFLARE_TOKEN}
+cloudflare_zone: ${CLOUDFLARE_ZONE}
+cloudflare_dns_subdomain: ${CLOUDFLARE_DNS_SUBDOMAIN}
+
